@@ -25,7 +25,7 @@ SECRET_KEY = '3i#z0r4*cx$m49ysu=g^p-_5fdb3(r#ft59e98g%)zf_g_o+#5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['anyvachana.pythonanywhere.com']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'djtest.urls'
+ROOT_URLCONF = 'djangogirls-tutorial.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djtest.wsgi.application'
+WSGI_APPLICATION = 'djangogirls-tutorial.wsgi.application'
 
 
 # Database
